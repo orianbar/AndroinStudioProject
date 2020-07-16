@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.FlappyDiver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Flappy Diver"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:node="replace"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name="com.example.FlappyDiver.MusicService"
+            android:enabled="true" />
+
+        <activity android:name="com.example.FlappyDiver.GameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+
+        <activity android:name="com.example.FlappyDiver.secondary_activity"
+            android:screenOrientation="landscape"/>
+
+
+        <activity android:name="com.example.FlappyDiver.RatingbarActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name="com.example.FlappyDiver.DialogActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.FlappyDiver.FoodAvcivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.FlappyDiver.DialogScore"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.FlappyDiver.MainActivity"
+            android:screenOrientation="landscape"
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

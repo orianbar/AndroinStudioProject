@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Matala1</string>
+
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Hamster</item>
+    </string-array>
+
+    <string name="back_main">Back To Main</string>
+    <string name="play">Play</string>
+    <string name="button3">Tutorial</string>
+    <string name="button4">Quit</string>
+    <string name="textView2">In this game you will need to evade the sharks and collect as many coins as you can. In order to go up press the screen, in order to go down release your finger.</string>
+    <string name="precoin">Premuim Coin</string>
+    <string name="typecollectable">Type: Collectable</string>
+    <string name="collect">Collect</string>
+    <string name="coins">Coins</string>
+    <string name="worth">Worth</string>
+    <string name="pointsnum">30 Points</string>
+    <string name="spwanson">Spawns On</string>
+    <string name="level2">Level 2</string>
+    <string name="bravediver">Brave Diver</string>
+    <string name="typemaincha">Type: Main Character</string>
+    <string name="avoids">Avoids</string>
+    <string name="obstacles">Obstacles</string>
+    <string name="release">Release</string>
+    <string name="togodown">To Go Down</string>
+    <string name="pressscreen">Press Screen</string>
+    <string name="togoup">To Go Up</string>
+    <string name="pureheart">Pure Heart</string>
+    <string name="hearts">Hearts</string>
+    <string name="randomly">Randomly</string>
+    <string name="shinycoin">Shiny Coin</string>
+    <string name="increases">Increases</string>
+    <string name="health">Health</string>
+    <string name="pointsnumten">10 Points</string>
+    <string name="dangerous">Dangerous</string>
+    <string name="creature">Creature</string>
+    <string name="avoid">Avoid</string>
+    <string name="contact">Contact</string>
+    <string name="spawns">Spawns</string>
+    <string name="furiousshark">Furious Shark</string>
+    <string name="typefish">Type: Fish</string>
+    <string name="retry">Retry?</string>
+    <string name="tutorialbody">𝕀𝕟 𝕥𝕙𝕚𝕤 𝕘𝕒𝕞𝕖 𝕪𝕠𝕦 𝕨𝕚𝕝𝕝 𝕟𝕖𝕖𝕕 𝕥𝕠 𝕔𝕠𝕝𝕝𝕖𝕔𝕥 𝕥𝕙𝕖 𝕞𝕪𝕤𝕥𝕖𝕣𝕚𝕠𝕦𝕤 𝕔𝕠𝕚𝕟𝕤 𝕤𝕔𝕒𝕥𝕥𝕖𝕣𝕖𝕕 𝕒𝕣𝕠𝕦𝕟𝕕 𝕥𝕙𝕖 𝕠𝕔𝕖𝕒𝕟 𝕨𝕠𝕣𝕝𝕕, 𝕨𝕙𝕚𝕝𝕖 𝕞𝕒𝕟𝕒𝕘𝕚𝕟𝕘 𝕥𝕠 𝕕𝕠𝕕𝕘𝕖 𝕥𝕙𝕖 𝕗𝕦𝕣𝕚𝕠𝕦𝕤 𝕤𝕙𝕒𝕣𝕜𝕤 𝕒𝕨𝕒𝕚𝕥𝕚𝕟𝕘 𝕗𝕠𝕣 𝕒 𝕥𝕒𝕤𝕥𝕪 𝕞𝕖𝕒𝕝! 𝔾𝕠𝕠𝕕 𝕃𝕦𝕔𝕜 𝕠𝕟 𝕪𝕠𝕦𝕣 𝕛𝕠𝕦𝕣𝕟𝕖𝕪 𝕒𝕟𝕕 𝕞𝕒𝕪 𝕪𝕠𝕦 𝕤𝕦𝕣𝕧𝕚𝕧𝕖 𝕥𝕙𝕖 𝕔𝕙𝕒𝕝𝕝𝕖𝕟𝕘𝕚𝕟𝕘 𝕣𝕦𝕤𝕙 𝕥𝕠 𝕥𝕖𝕝𝕝 𝕪𝕠𝕦𝕣 𝕗𝕣𝕚𝕖𝕟𝕕𝕤. 𝕀𝕟 𝕠𝕣𝕕𝕖𝕣 𝕥𝕠 𝕘𝕠 𝕦𝕡 𝕡𝕣𝕖𝕤𝕤 𝕥𝕙𝕖 𝕤𝕔𝕣𝕖𝕖𝕟, 𝕚𝕟 𝕠𝕣𝕕𝕖𝕣 𝕥𝕠 𝕘𝕠 𝕕𝕠𝕨𝕟 𝕣𝕖𝕝𝕖𝕒𝕤𝕖 𝕪𝕠𝕦𝕣 𝕗𝕚𝕟𝕘𝕖𝕣.</string>
+    <string name="letsplay">Let\'s Go</string>
+    <string name="score">Score:</string>
+    <string name="name_tv">Name</string>
+    <string name="Score">Score</string>
+    <string name="place1">1st place</string>
+    <string name="place2">2nd place</string>
+    <string name="place3">3rt place</string>
+    <string name="Congratulations">Congratulations on getting into the top three!</string>
+    <string name="hint">Please enter your name</string>
+    <string name="Confirm">Confirm</string>
+    <string name="next">Next</string>
+    <string name="areyou">Are you sure you want to quit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="yourscore">your score:</string>
+</resources>

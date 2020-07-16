@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean1"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_below="@id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/play"
+            android:layout_width="206dp"
+            android:layout_height="87dp"
+            android:background="@drawable/tutobackground"
+            android:onClick="toSlide"
+            android:text="@string/play"
+            android:layout_weight="2"
+            android:textColor="#FFFFFF"
+            android:textSize="44dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="127dp"
+            android:layout_height="35dp"
+            android:background="@drawable/playbackground"
+            android:onClick="toMove"
+            android:text="@string/button3"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_below="@id/play"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="102dp"
+            android:layout_height="39dp"
+            android:layout_below="@id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="-9dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/quitbackground"
+            android:onClick="toBlink"
+            android:text="@string/button4"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="54dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/info"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="252dp"
+            android:layout_marginLeft="247dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/button4"
+            android:src="@drawable/trophypressed1"
+            tools:ignore="NotSibling" />
+
+        <org.firezenk.bubbleemitter.BubbleEmitterView
+            android:id="@+id/bubbleEmitter"
+            android:layout_width="695dp"
+            android:layout_height="380dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.083"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="105dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/imageView5"
+        android:paddingEnd="30dp"
+        android:src="@drawable/settingspressed1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="562dp"
+        android:layout_height="166dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/text" />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="85dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="232dp"
+        android:layout_toRightOf="@id/imageView5"
+        android:paddingStart="30dp"
+        android:src="@drawable/infopressed1" />
+
+    <ImageView
+        android:id="@+id/diver"
+        android:layout_width="189dp"
+        android:layout_height="156dp"
+        android:layout_below="@id/imageView5"
+        android:layout_marginTop="-91dp"
+        app:srcCompat="@drawable/diver" />
+
+
+</RelativeLayout>

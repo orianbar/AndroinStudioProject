@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radioGroup" type="id" />
+    <item name="text_view_selected" type="id" />
+    <item name="button_apply" type="id" />
+    <item name="btns_layout" type="id" />
+    <item name="txt_animation" type="id" />
+    <item name="sound" type="id" />
+</resources>
